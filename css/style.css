@@ -208,13 +208,13 @@ footer {
   padding: 20px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .profileImg {
     width: 300px;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .profileImg {
     width: 200px;
   }
