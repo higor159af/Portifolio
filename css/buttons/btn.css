@@ -37,3 +37,11 @@
     font-size: .5rem;
   }
 }
+
+@media (max-width: 375px) {
+  #mainNav .mainBtn {
+    padding: 0px;
+    margin: 5px;
+    font-size: .5rem;
+  }
+}
