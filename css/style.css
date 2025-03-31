@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+section h2 {
+  color: #03c7b7;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+}
+section h2,
+footer {
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+
+ul a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#mainHeader {
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  z-index: 1;
+  padding: 10px;
+}
+
+#mainNav {
+  text-align: end;
+}
+
+/* welcome */
+
+#wellcome,#projects {
+  background: linear-gradient(360deg, #000, #03c7b7a4);
+}
+
+#wellcome .container > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#wellcome h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #03c7b7;
+  text-shadow: #000 3px 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wellcome h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.6rem;
+  position: relative;
+  top: -10px;
+}
+
+/* profile */
+.text {
+  height: 100%;
+}
+
+.profile {
+  margin-right: 50px;
+}
+
+#skills {
+  background: url("../img/bg-projects2.png") center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container:hover .cardSkill:not(:hover) {
+  transform: scale(0.9);
+}
+
+.cardSkill:hover {
+  scale: 1.1;
+}
+
+.cardSkill .fa,
+.cardSkill .fab,
+.cardSkill .fas {
+  font-size: 2.5rem;
+  opacity: 0.7;
+}
+
+.cardSkill:hover .fa,
+.cardSkill:hover .fab,
+.cardSkill:hover .fas {
+  opacity: 1;
+}
+
+.cardSkill .fa-ts {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 35px;
+  height: 35px;
+  color: #000;
+  background-color: #03c7b7;
+  font-size: 1.2rem;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.cardSkill {
+  border: 1px solid #03c7b7;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  color: #03c7b7;
+  transition: 0.4s ease;
+  margin: 20px;
+}
+
+.text {
+  width: 500px;
+  text-align: left;
+  opacity: 0.8;
+}
+
+/* projetos */
+
+#projects {
+  padding: 20px;
+}
+
+.projectItens {
+  border: 1px solid transparent;
+  padding: 5px;
+  text-align: center;
+  width: 150px;
+  transition: 0.4s ease;
+  border-radius: 10px;
+  &:hover {
+    border-color: #03c7b7;
+    color: #03c7b7;
+  }
+}
+
+.projectItens span {
+  color: #03c7b7;
+}
+
+.projectItens img {
+  width: 100px;
+  transition: 0.4s;
+}
+
+.projectItens img:hover {
+  scale: 1.1;
+}
+
+#contact i {
+  font-size: 1.6rem;
+  transition: 0.4s;
+}
+
+#contact a:hover .fa-whatsapp {
+  color: #04ff10;
+}
+#contact a:hover .fa-instagram {
+  color: #ff04d5;
+}
+#contact a:hover .fa-linkedin {
+  color: #0479ff;
+}
+#contact a:hover .fa-github {
+  color: #ffd104;
+}
+#contact a:hover .fa-envelope {
+  color: #f00;
+}
+
+footer {
+  padding: 20px;
+}
