@@ -30,11 +30,11 @@
   border-radius: inherit;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 412px) {
   #mainNav .mainBtn {
     padding: 5px;
     margin: 5px;
-    font-size: .5rem;
+    font-size: 1rem;
   }
 }
 
