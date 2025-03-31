@@ -52,7 +52,8 @@ ul a {
 
 /* welcome */
 
-#wellcome,#projects {
+#wellcome,
+#projects {
   background: linear-gradient(360deg, #000, #03c7b7a4);
 }
 
@@ -207,21 +208,17 @@ footer {
   padding: 20px;
 }
 
-
-
-
-@media (min-width:320px) {
-  .profileImg{
-    width: 200px;
-  }
-  .text{
-    padding: 5px;
+@media (min-width: 768px) {
+  .profileImg {
+    width: 300px;
   }
 }
 
-
-@media (min-width:768px) {
-  .profileImg{
-    width: 300px;
+@media (min-width: 320px) {
+  .profileImg {
+    width: 200px;
+  }
+  .text {
+    padding: 5px;
   }
 }
