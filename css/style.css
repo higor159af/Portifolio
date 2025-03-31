@@ -206,3 +206,22 @@ ul a {
 footer {
   padding: 20px;
 }
+
+
+
+
+@media (min-width:320px) {
+  .profileImg{
+    width: 200px;
+  }
+  .text{
+    padding: 5px;
+  }
+}
+
+
+@media (min-width:768px) {
+  .profileImg{
+    width: 300px;
+  }
+}
